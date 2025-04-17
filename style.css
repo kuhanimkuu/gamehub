@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+}
+.main-container{
+    text-align: center;
+   
+}
+.game-container{
+    border: 2px solid #fff;
+    display: inline-block;
+    position: relative;
+}
+#gameInfo{
+    margin-top:10px;
+    color:#fff;
+}
+.restartButton{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.restartButton:hover{
+    background-color: greenyellow;
+}
