@@ -184,5 +184,6 @@ document.getElementById('restartButton').addEventListener('click',()=>{
     lastSpeedIncrease = Date.now();
     gameLoop();
 });
-
-gameLoop();
+document.getElementById("Start").addEventListener('click',()=>{
+    gameLoop();
+})
