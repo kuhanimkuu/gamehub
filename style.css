@@ -57,6 +57,131 @@
     color: #fff;
     opacity:0.2;
 }
+/* Login page */
+.logs{
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+  }
+  .login-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    color: #111827;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #374151;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  .login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .login-button:hover {
+    background-color: #2563eb;
+  }
+  .login-footer {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  .login-footer a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+/* signup page */
+.signup{
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .signup-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+    color: #111827;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #374151;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  .signup-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .signup-button:hover {
+    background-color: #059669;
+  }
+  .signup-footer {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  .signup-footer a {
+    color: #3b82f6;
+    text-decoration: none;
+  }
+
 /* tetris */
 .tetris{
     display: flex;
@@ -153,3 +278,4 @@ button:hover {
     font-size: 20px;
     margin-top: 10px;
 }
+
