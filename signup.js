@@ -1,9 +1,9 @@
 function viewpassword(){
-    let password = document.getElementById("Password")
-    if(password.type ==="password"){
-        password.type="text"
+    let Password = document.getElementById("Password")
+    if(Password.type ==="password"){
+        Password.type="text"
     }else{
-        password.type="password"
+        Password.type="password"
     }
     let ConfirmPassword = document.getElementById("ConfirmPassword")
     if(ConfirmPassword.type ==="password"){
@@ -22,14 +22,14 @@ document.getElementById("signup-form").addEventListener("submit", async function
     const password = document.getElementById("Password").value
     const confirmPassword = document.getElementById("ConfirmPassword").value
     if (password === confirmPassword){
-        const res = await fetch("http://localhost:3000/users")
+        const res = await fetch("http://localhost:4000/users")
         users = await res.json()
-        const email = users.find(user=> user.email===email)
-        if(email){
+        const emails = users.find(user=> user.email===email)
+        if(emails){
             alert("User exists")
         }
         else{
-             await fetch("://localhost:3000",{
+             await fetch("http://localhost:4000/users",{
                     method :"POST",
                     headers:{'Content-Type':'application/json'},
                     body: JSON.stringify({username, email, password})
