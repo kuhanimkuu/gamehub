@@ -34,6 +34,8 @@
     font-size: 20px;
     margin-top: 12%;
     transition: all ease-in-out 0.2s;
+    border-radius: 20px;
+    padding: 20px;
   }
 .heading:hover{
   opacity:1;
@@ -45,9 +47,13 @@
   background-color: white;
   opacity: 0;
   transition: all ease-in-out 0.5s;
+  border-radius: 20px;
 }
 .clever:hover{
   opacity:0.6;
+}
+ul{
+  text-align: left;
 }
 /* Login page */
 .logs{
