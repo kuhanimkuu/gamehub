@@ -8,6 +8,60 @@
       "username": "kuhanimkuu",
       "email": "kuhani@gmail.com",
       "password": "12345"
+    },
+    {
+      "id": "6c19",
+      "username": "davidme",
+      "email": "david@gmail.com",
+      "password": "4567"
+    },
+    {
+      "id": "40f7",
+      "username": "mellow",
+      "email": "mellow@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "e130",
+      "username": "mark",
+      "email": "mark@gmail.com",
+      "password": "6789"
+    },
+    {
+      "id": "f8e2",
+      "username": "mewa",
+      "email": "mewa@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "f48e",
+      "username": "weka",
+      "email": "weka@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "889e",
+      "username": "wika",
+      "email": "wika@yahoo.com",
+      "password": "222"
+    },
+    {
+      "id": "6785",
+      "username": "milla",
+      "email": "milla@gmail.com",
+      "password": "2424"
+    },
+    {
+      "id": "1cc0",
+      "username": "aka",
+      "email": "aka@gmail.com",
+      "password": "2323"
+    },
+    {
+      "id": "b7d9",
+      "username": "faith",
+      "email": "faith@gmail.com",
+      "password": "123"
     }
   ]
 }

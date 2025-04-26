@@ -23,7 +23,7 @@ document.getElementById("signup-form").addEventListener("submit", async function
     const confirmPassword = document.getElementById("ConfirmPassword").value
     if (password === confirmPassword){
         const res = await fetch("http://localhost:4000/users")
-        users = await res.json()
+        const users = await res.json()
         const emails = users.find(user=> user.email===email)
         if(emails){
             alert("User exists")
@@ -36,19 +36,20 @@ document.getElementById("signup-form").addEventListener("submit", async function
                 })
                 .then(response=>{
                     if(response.ok){
+                        window.location.href="login.html"
                         return response.json()
                         
+                
                     }else{
                         throw new Error("Erro creating user:" + response.statusText)
                     }
                 })
                 .then(data => {
-                    alert("User created successfully:", data)
+                    alert("User created successfully:"+ (data));
+                    window.location.href="login.html"
                      
                 })
-                if(data.ok){
-                    window.location.href="login.html"
-                }
+                
               }
           
     }

@@ -15,7 +15,7 @@
     align-items: center;
     gap:20vh;
     z-index: 2;
-
+  font-family: "Comic Sana MS","Chalkboard SE", cursive;
 }
 .title{
     display: flex;
@@ -51,16 +51,17 @@
 }
 /* Login page */
 .logs{
-    font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
+    font-family:sans-serif;
+    background-color: #fbc02d;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin:0;
+    font-family: "Comic Sana MS","Chalkboard SE", cursive;
   }
   .login-container {
-    background-color: #ffffff;
+    background-color: #ffeb3b;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -110,19 +111,24 @@
   .login-footer a {
     color: #3b82f6;
     text-decoration: none;
+    transition: all ease-in-out 0.4s;
+  }
+  .login-footer a:hover{
+    font-size: 20px;
   }
 /* signup page */
 .signup{
     font-family: Arial, sans-serif;
-    background-color: #f3f4f6;
+    background-color: #fbc02d;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: "Comic Sana MS","Chalkboard SE", cursive;
   }
   .signup-container {
-    background-color: #ffffff;
+    background-color: #ffeb3b;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -172,6 +178,10 @@
   .signup-footer a {
     color: #3b82f6;
     text-decoration: none;
+    transition: all ease-in-out 0.4s;
+  }
+  .signup-footer a:hover{
+    font-size: 20px;
   }
 /* play */
 .play{
@@ -179,8 +189,9 @@
   flex-direction: column;
   align-items: center;
   gap:10vh;
-  background-color: black;
+  background-color: #fbc02d;
   justify-content: center;
+  font-family: "Comic Sana MS","Chalkboard SE", cursive;
 }
 .images{
   display: flex;
@@ -190,6 +201,35 @@
 }
 .igs{
   color: rgb(255, 255, 255);
+  width:100%;
+  background-color: red;
+  text-align: center;
+  font-size: 50px;
+  box-shadow:4px 4px 4px rgba(0,0,0,0.5);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+.igs:hover{
+  font-size: 60px;
+  color:#ff4500;
+  background-color:#87ceeb ;
+  box-shadow: none;
+  text-decoration: solid underline;
+}
+.igss{
+  color: rgb(255, 255, 255);
+  width:100%;
+  background-color: red;
+  text-align: center;
+  font-size: 50px;
+  box-shadow:4px 4px 4px rgba(0,0,0,0.5);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  margin-top:-5%;
+  display: none;
+}
+.igs:hover .igss{
+  display: block;
 }
 .imgs{
   width:300px;
@@ -214,17 +254,19 @@ figure{
     align-items: center;
     height: 120vh;
     margin: 0;
-    background-color: black;
-    color: #fff;
+    background-color: #fbc02d;
+    color: black;
+    font-family: "Comic Sna MS", "Chalkboard SE", cursive;
 }
 .main-container{
     text-align: center;
    
 }
 .game-container{
-    border: 2px solid #fff;
+  
     display: inline-block;
     position: relative;
+    background-color: #ffcc00;
 }
 #gameInfo{
     margin-top:10px;
@@ -263,12 +305,13 @@ figure{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #282c34;
-    color: white;
+    background-color: #fbc02d;
+    color: black;
     text-align: center;
+    font-family: "Comic Sana MS","Chalkboard SE", cursive;
 }
 .game-containers {
-    background: linear-gradient(135deg, #f06, #4a90e2);
+    background: #ffcc00;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -347,4 +390,16 @@ button:hover {
 
 .product-card button.added {
   background-color: #28a745;
+}
+
+.dinosaur{
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fbc02d;
+  color: black;
+  text-align: center;
+  font-family: "Comic Sana MS","Chalkboard SE", cursive;
 }

@@ -121,6 +121,7 @@ function moveDown(){
         if(hasCollision(0,0)){
             gameOver=true;
             document.getElementById('restartButton').style.display='block';
+            alert("Game over!! Try again")
         }
     }
 }
